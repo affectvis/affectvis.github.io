@@ -185,7 +185,7 @@
             " Gerard de Melo"
         ],
         "venue": "ACM Transactions on Interactive Intelligent Systems",
-        "detail": "10:(4), 1—25"
+        "detail": "10:(4), Article No. 34, 25 pages"
     },
     {
         "key": "zhang2021affective",
@@ -1249,7 +1249,7 @@
         "type": "inproceedings",
         "TITLE": "Red balloon, green balloon, sensors in the sky",
         "AUTHOR": "Kuznetsov, Stacey and Davis, George Noel and Paulos, Eric and Gross, Mark D and Cheung, Jian Chiu",
-        "BOOKTITLE": "Proceedings of the 13th International Conference on Ubiquitous Computing (UbiComp)",
+        "BOOKTITLE": "Proceedings of the International Conference on Ubiquitous Computing (UbiComp)",
         "PAGES": "237--246",
         "YEAR": 2011,
         "PUBLISHER": "ACM",
@@ -1262,7 +1262,7 @@
             "Mark D Gross",
             "Jian Chiu Cheung"
         ],
-        "venue": "Proceedings of the 13th International Conference on Ubiquitous Computing (UbiComp)",
+        "venue": "Proceedings of the International Conference on Ubiquitous Computing (UbiComp)",
         "detail": "237—246"
     },
     {
@@ -1290,7 +1290,7 @@
         "type": "inproceedings",
         "TITLE": "Toward A Deep Understanding of What Makes a Scientific Visualization Memorable",
         "AUTHOR": "Li, Rui and Chen, Jian",
-        "BOOKTITLE": "2018 IEEE Scientific Visualization Conference (SciVis)",
+        "BOOKTITLE": "Proceedings of the IEEE Scientific Visualization Conference (SciVis)",
         "PAGES": "26--31",
         "YEAR": 2018,
         "PUBLISHER": "IEEE",
@@ -1300,7 +1300,7 @@
             "Rui Li",
             "Jian Chen"
         ],
-        "venue": "2018 IEEE Scientific Visualization Conference (SciVis)",
+        "venue": "Proceedings of the IEEE Scientific Visualization Conference (SciVis)",
         "detail": "26—31"
     },
     {

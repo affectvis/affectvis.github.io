@@ -8,7 +8,7 @@
             <th colspan="4" class="meta-class need-middle">Meta</th>
             <th colspan="1" class="emotion-class need-middle">Emotion</th>
             <th colspan="4" class="assessment-class need-middle">Assessment</th>
-            <th colspan="6" class="elicitation-class need-middle">Elicitation Factors</th>
+            <th colspan="4" class="elicitation-class need-middle">Elicitation Factors</th>
             <th colspan="1" class="effect-class need-middle">Effect</th>
           </tr>
           <!-- <tr class="explanation-row">
@@ -25,8 +25,6 @@
             <th>User</th>
             <th>Data & Info</th>
             <th>Encoding</th>
-            <th>Narrative</th>
-            <th>Interaction</th>
             <th>Unspecified</th>
             <th>Effect</th>
           </tr> -->
@@ -45,7 +43,7 @@
             </th>
             <th>
                <a-tooltip placement="top">
-                  <template #title>Publication Venue (Hover for Details)</template>
+                  <template #title>Publication Venue<br> (Hover for Details)</template>
                  <i class="fa-solid fa-location-dot"></i>
                 </a-tooltip>
             </th>
@@ -63,7 +61,7 @@
             </th>
             <th class="need-middle">
                <a-tooltip placement="top">
-                  <template #title>Instrument</template>
+                  <template #title>Instrument<br>(Self-Report, Device, Observation)</template>
                    <i class="fa-solid fa-sheet-plastic assessment-class"></i>
                 </a-tooltip>
               </th>
@@ -81,7 +79,7 @@
               </th>
             <th class="need-middle">
               <a-tooltip placement="top">
-                  <template #title>Timing of Assessment</template>
+                  <template #title>Timing of Assessment<br>Before—During—After</template>
                <i class="fa-solid fa-hourglass-start assessment-class"></i>
                 </a-tooltip>
               </th>
@@ -99,11 +97,11 @@
             </th>
             <th>
               <a-tooltip placement="top">
-                  <template #title>Factor: Data Encoding</template>
+                  <template #title>Factor: Visualization Design</template>
                    <i class="fa-solid fa-palette elicitation-class"></i>
                 </a-tooltip>
             </th>
-            <th>
+            <!-- <th>
               <a-tooltip placement="top">
                   <template #title>Factor: Narrative</template>
                   <i class="fa-solid fa-book elicitation-class"></i>
@@ -114,10 +112,10 @@
                   <template #title>Factor: Interaction</template>
                   <i class="fa-solid fa-computer-mouse elicitation-class"></i>
                 </a-tooltip>
-            </th>
+            </th> -->
             <th>
               <a-tooltip placement="top">
-                  <template #title>Factor: Unspecified</template>
+                  <template #title>Unspecify Any Factor</template>
               <i class="fa-solid fa-circle-question elicitation-class"></i>
                 </a-tooltip> 
               </th>
@@ -160,7 +158,7 @@
                 </a-tag>
                 <a-tag v-if="tag=='interpreted'">
                    <template #icon><eye-outlined /></template>
-                   Obs
+                   Obs.
                 </a-tag>
                 <a-tag v-if="tag=='device'">
                    <template #icon><camera-outlined /></template>
@@ -183,9 +181,10 @@
             </td>
             <td class="elicitation-class"><div :class="getLabelClass(pub['User'])"></div></td>
             <td class="elicitation-class"><div :class="getLabelClass(pub['Data & Info'])"></div></td>
-            <td class="elicitation-class"><div :class="getLabelClass(pub['Encoding'])"></div></td>
-            <td class="elicitation-class"><div :class="getLabelClass(pub['Narrative'])"></div></td>
-            <td class="elicitation-class"><div :class="getLabelClass(pub['Interaction'])"></div></td>
+            <!-- <td class="elicitation-class"><div :class="getLabelClass(pub['Encoding'] || pub['Narrative'] || pub['Interaction'])"></div></td> -->
+            <td class="elicitation-class"><div :class="getLabelClass(pub['Vis Design'])"></div></td>
+            <!-- <td class="elicitation-class"><div :class="getLabelClass(pub['Narrative'])"></div></td>
+            <td class="elicitation-class"><div :class="getLabelClass(pub['Interaction'])"></div></td> -->
             <td class="elicitation-class"><div :class="getLabelClass(pub['Unspecified'])"></div></td>
             <td class="effect-class">
                 <a-tag v-if="pub.Effect=='priming'">
