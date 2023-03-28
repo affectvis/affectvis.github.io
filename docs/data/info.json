@@ -182,7 +182,7 @@
         "ADDRESS": "New York, NY, USA",
         "authors": [
             "Tugba Kulahcioglu ",
-            " Gerard de Melo"
+            "Gerard de Melo"
         ],
         "venue": "ACM Transactions on Interactive Intelligent Systems",
         "detail": "10:(4), Article No. 34, 25 pages"
@@ -208,7 +208,7 @@
             "Shengdong Zhao"
         ],
         "venue": "Sensors",
-        "detail": "21(14) Arctile No.4766, 20 pages"
+        "detail": "21(14) Article No. 4766, 20 pages"
     },
     {
         "key": "kennedy2018feeling",
@@ -632,7 +632,7 @@
             "Christina Stolavetz"
         ],
         "venue": "Energy Conversion and Management: X",
-        "detail": "Volume 16, Article No.  100279, 13 pages"
+        "detail": "Volume 16, Article No. 100279, 13 pages"
     },
     {
         "key": "concannon2020brooke",
@@ -1156,7 +1156,7 @@
             "Lilian Golzarri-Arroyo"
         ],
         "venue": "BMC Research Notes",
-        "detail": "Volume 14, 1—6"
+        "detail": "Volume 14, Article No. 210, 6 pages"
     },
     {
         "key": "kauer2021public",
@@ -1223,26 +1223,6 @@
         ],
         "venue": "Advances in Cartography and GIScience",
         "detail": "Volume 1, 219—238"
-    },
-    {
-        "key": "kulahcioglu2020affect",
-        "type": "article",
-        "TITLE": "Affect-Aware Word Clouds",
-        "AUTHOR": "Tugba Kulahcioglu and Gerard de Melo",
-        "YEAR": 2020,
-        "JOURNAL": "ACM Transactions on Interactive Intelligent Systems",
-        "VOLUME": "10",
-        "NUMBER": "4",
-        "ARTICLENO": "34",
-        "PAGES": "34:1--25",
-        "NUMPAGES": "25",
-        "DOI": "10.1145/3370928",
-        "authors": [
-            "Tugba Kulahcioglu ",
-            " Gerard de Melo"
-        ],
-        "venue": "ACM Transactions on Interactive Intelligent Systems",
-        "detail": "10:(4), 34:1—25"
     },
     {
         "key": "kuznetsov2011red",
